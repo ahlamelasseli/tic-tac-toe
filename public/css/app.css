@@ -1,0 +1,29 @@
+
+
+ body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f2f2f2;
+    margin: 0;
+  }
+  
+  #div-container {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 5px;
+  }
+  
+  .box {
+    width: 100px;
+    height: 100px;
+    background: #d17878;
+    border: 2px solid #333;
+    border-radius: 22px;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  } 
